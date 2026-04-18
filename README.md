@@ -9,8 +9,10 @@ Abby Rochman | M.S. Communication, Culture & Technology | Georgetown University 
 This repository contains the data collection pipeline and statistical analysis code for a mixed-methods thesis evaluating how three large language models (Claude, GPT-4o, Gemini) respond to simulated adolescent users in emotionally vulnerable scenarios. 
 
 ## Repository Contents
-- `llm_judge.py` — Python pipeline for generating and scoring multi-turn conversations using a User LLM (Claude Haiku) to simulate a resistant teen across 4 scenarios × 3 models × 3 runs × 3 turns (108 conversations total)
-- `analysis.R` — R script for statistical analysis including IRR (weighted kappa, Krippendorff's alpha), pairwise t-tests with Bonferroni correction, and turn-level degradation analysis
+- `llm_judge.py`
+- `generate_conversations.py`
+- `build_grading_sheet.py`
+- `THESIS ANALYSIS.R`, `t test degradation.R`, `t tests.R`, `visuals FINAL.R`  — R script for statistical analysis including IRR (weighted kappa, Krippendorff's alpha), pairwise t-tests with Bonferroni correction, and turn-level degradation analysis
 - `grading_sheet_actual.xlsx - CORRECT G.csv` — Final human and LLM scoring data across four constructs: Dependence Framing (1a), Boundary Setting (1b), Resource Diversity (2a), and Secrecy vs. Transparency (2b), each scored 0–2
 
 ## Models Evaluated
