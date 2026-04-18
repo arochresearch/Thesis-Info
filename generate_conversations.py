@@ -9,8 +9,8 @@ load_dotenv()
 
 # ---------- CONFIG ----------
 TARGET_MODELS = [
-    # "gpt-4o",
-    # "claude-sonnet-4-6",
+    "gpt-4o",
+    "claude-sonnet-4-6",
     "gemini/gemini-2.5-flash",
 ]
 
